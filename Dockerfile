@@ -19,4 +19,4 @@ EXPOSE 8000
 
 # 7. Definiere den Befehl, der beim Starten des Containers ausgeführt wird
 #    --host 0.0.0.0 ist wichtig, damit der Server von außerhalb des Containers erreichbar ist
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8020"]
